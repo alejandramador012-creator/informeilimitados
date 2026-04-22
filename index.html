@@ -159,7 +159,9 @@ nav {
   margin-bottom: 8px;
   color: #fff;
 }
-.hero h1 .accent {
+.h1-full   { display: inline; }
+.h1-mobile { display: none; }
+
   color: var(--purp-ll);
 }
 .hero-sub {
@@ -554,8 +556,9 @@ footer {
 /* ── iPhone / small screens ── */
 @media (max-width: 480px) {
   .hero { padding: 100px 18px 60px; }
-  .hero h1 { font-size: clamp(32px, 10vw, 52px); letter-spacing: -0.02em; line-height: 1.0; }
-  .hero h1 br { display: none; }   /* "INFORME DE RESULTADOS" on one line if it fits */
+  .hero h1 { font-size: 38px; letter-spacing: -0.02em; line-height: 1.05; }
+  .h1-full  { display: none; }
+  .h1-mobile { display: inline; }
   .big-num { font-size: clamp(44px, 14vw, 80px) !important; }
   .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .kpi-val  { font-size: 22px; }
@@ -575,7 +578,7 @@ footer {
   .cc-big { font-size: 28px; }
 }
 @media (max-width: 375px) {
-  .hero h1 { font-size: 28px; }
+  .hero h1 { font-size: 34px; }
   .kpi-val  { font-size: 20px; }
 }
 
@@ -621,7 +624,7 @@ footer {
   </div>
 
   <h1 class="r d1">
-    INFORME DE<br><span class="accent">RESULTADOS</span>
+    <span class="h1-full">INFORME DE<br><span class="accent">RESULTADOS</span></span><span class="h1-mobile"><span class="accent">INFORME</span></span>
   </h1>
 
   <p class="hero-sub r d2">
