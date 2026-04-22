@@ -35,8 +35,8 @@ body {
   --green:   #10B981;
   --pink:    #EC4899;
   --white:   #FFFFFF;
-  --silver:  #CBD5E1;
-  --silver-d:#475569;
+  --silver:  #FFFFFF;
+  --silver-d:#94A3B8;
   --glass:   rgba(12,21,53,0.75);
   --radius:  16px;
   --radius-sm:10px;
@@ -88,7 +88,7 @@ nav {
 }
 .nav-center {
   font-family: 'Syne Mono', monospace;
-  font-size: 11px; color: var(--silver-d);
+  font-size: 11px; color: rgba(255,255,255,0.7);
   letter-spacing: 0.06em;
 }
 .nav-pill {
@@ -154,7 +154,7 @@ nav {
 .hero h1 {
   font-family: 'Syne', sans-serif;
   font-weight: 800;
-  font-size: clamp(52px, 9vw, 100px);
+  font-size: clamp(34px, 8.5vw, 100px);
   line-height: 0.95; letter-spacing: -0.03em;
   margin-bottom: 8px;
   color: #fff;
@@ -164,11 +164,11 @@ nav {
 }
 .hero-sub {
   font-size: clamp(16px, 2vw, 20px);
-  color: var(--silver); margin: 24px 0 12px;
+  color: rgba(255,255,255,0.88); margin: 24px 0 12px;
   font-weight: 300; max-width: 600px;
 }
 .hero-context {
-  font-size: 14px; color: var(--silver-d);
+  font-size: 14px; color: rgba(255,255,255,0.72);
   margin-bottom: 48px;
 }
 .hero-context strong { color: var(--purp-ll); font-weight: 600; }
@@ -205,7 +205,7 @@ nav {
 .kpi-val.v-cyan { color: var(--cyan); }
 .kpi-val.v-green { color: var(--green); }
 .kpi-lab {
-  font-size: 11px; color: var(--silver-d);
+  font-size: 11px; color: rgba(255,255,255,0.65);
   font-weight: 500; letter-spacing: 0.02em; line-height: 1.4;
 }
 
@@ -219,15 +219,15 @@ nav {
 .sec-hdr { margin-bottom: 52px; }
 .sec-num {
   font-family: 'Syne Mono', monospace;
-  font-size: 11px; color: var(--silver-d);
+  font-size: 11px; color: rgba(255,255,255,0.65);
   letter-spacing: 0.1em; display: block;
   margin-bottom: 10px;
 }
 .sec-title {
   font-family: 'Syne', sans-serif;
   font-weight: 800;
-  font-size: clamp(32px, 5vw, 56px);
-  line-height: 1.05; letter-spacing: -0.02em;
+  font-size: clamp(26px, 5.5vw, 56px);
+  line-height: 1.1; letter-spacing: -0.02em;
   color: #fff;
 }
 .sec-title .a { color: var(--purp-ll); }
@@ -235,7 +235,7 @@ nav {
 .sec-title .ac { color: var(--cyan); }
 .sec-desc {
   margin-top: 14px; font-size: 16px;
-  color: var(--silver); font-weight: 300;
+  color: rgba(255,255,255,0.88); font-weight: 300;
   max-width: 640px; line-height: 1.7;
 }
 
@@ -243,19 +243,19 @@ nav {
 .big-num {
   font-family: 'Syne', sans-serif;
   font-weight: 800;
-  font-size: clamp(64px, 11vw, 120px);
+  font-size: clamp(52px, 10vw, 120px);
   line-height: 0.92; letter-spacing: -0.04em;
   color: var(--purp-ll);
 }
 .big-num.c { color: var(--cyan); }
 .big-num.g { color: var(--green); }
 .stat-lbl {
-  font-size: 12px; color: var(--silver-d);
+  font-size: 12px; color: rgba(255,255,255,0.65);
   text-transform: uppercase; letter-spacing: 0.1em;
   margin-top: 10px; font-weight: 500;
 }
 .stat-sub {
-  font-size: 15px; color: var(--silver);
+  font-size: 15px; color: rgba(255,255,255,0.85);
   font-weight: 300; margin-top: 4px;
 }
 
@@ -305,7 +305,7 @@ nav {
   display: block;
 }
 .mini-lbl {
-  font-size: 10px; color: var(--silver-d);
+  font-size: 10px; color: rgba(255,255,255,0.7);
   text-transform: uppercase; letter-spacing: 0.07em;
   line-height: 1.35; display: block;
 }
@@ -316,7 +316,7 @@ nav {
   display: flex; justify-content: space-between;
   align-items: baseline; margin-bottom: 7px;
 }
-.bar-name { font-size: 13px; color: var(--silver); font-weight: 500; }
+.bar-name { font-size: 13px; color: #fff; font-weight: 500; }
 .bar-val  { font-family: 'Syne', sans-serif; font-size: 17px; font-weight: 700; color: #fff; }
 .bar-track {
   height: 8px; border-radius: 100px;
@@ -341,7 +341,7 @@ nav {
   border: 1px solid rgba(124,58,237,0.2);
   border-left: 3px solid var(--purp-l);
   border-radius: 10px; padding: 13px 15px;
-  font-size: 14px; color: var(--silver); line-height: 1.55;
+  font-size: 14px; color: #fff; line-height: 1.55;
 }
 .pill.pc { border-left-color:var(--cyan); background:rgba(34,211,238,0.05); border-color:rgba(34,211,238,0.2); }
 .pill.pg { border-left-color:var(--green); background:rgba(16,185,129,0.05); border-color:rgba(16,185,129,0.2); }
@@ -359,7 +359,7 @@ nav {
 .ev-lbl {
   font-family:'Syne Mono',monospace;
   font-size:10px; letter-spacing:0.09em;
-  color:var(--silver-d); text-transform:uppercase;
+  color:rgba(255,255,255,0.55); text-transform:uppercase;
   display:flex; align-items:center; gap:6px;
 }
 .ev-dot {
@@ -401,7 +401,7 @@ nav {
 }
 .rank-desc { min-width:0; }
 .rank-desc strong { display:block; font-size:13px; color:#fff; font-weight:600; margin-bottom:1px; }
-.rank-desc span { font-size:11px; color:var(--silver-d); }
+.rank-desc span { font-size:11px; color:rgba(255,255,255,0.65); }
 .rank-views { font-family:'Syne',sans-serif; font-weight:700; font-size:15px; text-align:right; white-space:nowrap; }
 .rank-bar { }
 .rank-track { height:4px; border-radius:2px; background:rgba(255,255,255,0.06); overflow:hidden; }
@@ -433,7 +433,7 @@ nav {
 .cc-ico { font-size:26px; margin-bottom:14px; display:block; }
 .cc-ttl { font-family:'Syne',sans-serif; font-weight:800; font-size:13px; letter-spacing:0.05em; text-transform:uppercase; margin-bottom:6px; color:#fff; }
 .cc-big { font-family:'Syne',sans-serif; font-weight:800; font-size:34px; line-height:1; margin-bottom:8px; }
-.cc-desc { font-size:13px; color:var(--silver); line-height:1.55; }
+.cc-desc { font-size:13px; color:rgba(255,255,255,0.88); line-height:1.55; }
 
 /* ─── REC CARDS ──────────────────────── */
 .rec-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:22px; }
@@ -454,7 +454,7 @@ nav {
 .rb-g { background:rgba(16,185,129,0.1); color:var(--green); border:1px solid rgba(16,185,129,0.28); }
 .rec-title { font-family:'Syne',sans-serif; font-weight:800; font-size:19px; margin-bottom:18px; color:#fff; }
 .rec-items { display:flex; flex-direction:column; gap:11px; }
-.rec-row { display:flex; gap:9px; font-size:13px; color:var(--silver); line-height:1.5; }
+.rec-row { display:flex; gap:9px; font-size:13px; color:rgba(255,255,255,0.88); line-height:1.5; }
 .rd { width:6px; height:6px; border-radius:50%; flex-shrink:0; margin-top:6px; }
 .rd-p { background:var(--purp-l); }
 .rd-c { background:var(--cyan); }
@@ -480,7 +480,7 @@ nav {
   /* NO line breaks forced — flows naturally */
 }
 .quote-text em { color:var(--purp-ll); font-style:normal; }
-.quote-attr { font-size:12px; color:var(--silver-d); margin-top:18px; letter-spacing:0.06em; }
+.quote-attr { font-size:12px; color:rgba(255,255,255,0.6); margin-top:18px; letter-spacing:0.06em; }
 @media(max-width:600px) {
   .quote-box { padding:32px 22px; }
 }
@@ -523,8 +523,8 @@ nav {
 .s-card.sc { background:rgba(34,211,238,0.07); border:1px solid rgba(34,211,238,0.18); }
 .s-card.sg { background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.2); }
 .s-num { font-family:'Syne',sans-serif; font-weight:800; font-size:44px; line-height:1; margin-bottom:6px; }
-.s-lbl { font-size:13px; color:var(--silver); font-weight:500; margin-bottom:4px; }
-.s-sub { font-size:12px; color:var(--silver-d); }
+.s-lbl { font-size:13px; color:rgba(255,255,255,0.88); font-weight:500; margin-bottom:4px; }
+.s-sub { font-size:12px; color:rgba(255,255,255,0.7); }
 
 /* ─── FOOTER ──────────────────────── */
 footer {
@@ -533,11 +533,11 @@ footer {
   padding:52px 40px 40px; text-align:center;
 }
 .ft-brand { font-family:'Syne',sans-serif; font-weight:800; font-size:22px; color:var(--purp-ll); margin-bottom:6px; }
-.ft-sub { font-size:13px; color:var(--silver-d); margin-bottom:28px; }
+.ft-sub { font-size:13px; color:rgba(255,255,255,0.75); margin-bottom:28px; }
 .ft-kpis { display:flex; gap:36px; justify-content:center; flex-wrap:wrap; margin-bottom:28px; }
 .ft-kpi-val { font-family:'Syne',sans-serif; font-weight:800; font-size:22px; }
-.ft-kpi-lbl { font-size:11px; color:var(--silver-d); }
-.ft-meta { font-size:11px; color:var(--silver-d); letter-spacing:0.04em; }
+.ft-kpi-lbl { font-size:11px; color:rgba(255,255,255,0.65); }
+.ft-meta { font-size:11px; color:rgba(255,255,255,0.55); letter-spacing:0.04em; }
 
 /* ─── REVEAL ANIMATION ──────────────────────── */
 .r {
@@ -550,6 +550,35 @@ footer {
 .d3 { transition-delay:0.3s; }
 
 /* ─── PRINT / PDF ──────────────────────── */
+
+/* ── iPhone / small screens ── */
+@media (max-width: 480px) {
+  .hero { padding: 100px 18px 60px; }
+  .hero h1 { font-size: clamp(32px, 10vw, 52px); letter-spacing: -0.02em; line-height: 1.0; }
+  .hero h1 br { display: none; }   /* "INFORME DE RESULTADOS" on one line if it fits */
+  .big-num { font-size: clamp(44px, 14vw, 80px) !important; }
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .kpi-val  { font-size: 22px; }
+  .sec-title { font-size: clamp(24px, 7vw, 40px) !important; }
+  .quote-text { font-size: clamp(15px, 4.5vw, 22px) !important; }
+  .roi { padding: 22px 18px; }
+  .roi-text { font-size: 14px; }
+  .three-stats { grid-template-columns: repeat(3,1fr); gap: 8px; }
+  .three-stats .s-num { font-size: 28px; }
+  .rank-item { grid-template-columns: 30px 1fr 58px; }
+  .rank-bar  { display: none; }
+  .conc-grid { grid-template-columns: 1fr; }
+  .rec-grid  { grid-template-columns: 1fr; }
+  nav { height: 50px; }
+  .nav-center { display: none; }
+  .phone { max-width: 240px; }
+  .cc-big { font-size: 28px; }
+}
+@media (max-width: 375px) {
+  .hero h1 { font-size: 28px; }
+  .kpi-val  { font-size: 20px; }
+}
+
 @media print {
   html, body { background:#04081A !important; color:#fff !important; }
   .mesh, .grid-bg, nav, .pdf-btn-wrap { display:none !important; }
@@ -638,7 +667,7 @@ footer {
       </svg>
       Descargar este informe como PDF
     </button>
-    <span style="font-size:12px; color:var(--silver-d); margin-left:14px; vertical-align:middle;">Guarda una copia en cualquier dispositivo</span>
+    <span style="font-size:12px; color:rgba(255,255,255,0.65); margin-left:14px; vertical-align:middle;">Guarda una copia en cualquier dispositivo</span>
   </div>
 </div>
 
@@ -656,22 +685,22 @@ footer {
     <div class="card bp r">
       <div style="font-size:22px; margin-bottom:10px;">📍</div>
       <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:14px; margin-bottom:6px;">Evento cubierto</div>
-      <div style="font-size:13px; color:var(--silver);">"ILIMITADOS" — Alicante, España. Evento inmobiliario premium con ponentes referentes del sector.</div>
+      <div style="font-size:13px; color:rgba(255,255,255,0.9);">"ILIMITADOS" — Alicante, España. Evento inmobiliario premium con ponentes referentes del sector.</div>
     </div>
     <div class="card cp r d1">
       <div style="font-size:22px; margin-bottom:10px;">📱</div>
       <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:14px; margin-bottom:6px;">Canal utilizado</div>
-      <div style="font-size:13px; color:var(--silver);">Solo Historias de Instagram. Sin posts al feed. Sin pauta pagada. 100% orgánico.</div>
+      <div style="font-size:13px; color:rgba(255,255,255,0.9);">Solo Historias de Instagram. Sin posts al feed. Sin pauta pagada. 100% orgánico.</div>
     </div>
     <div class="card bp r d2">
       <div style="font-size:22px; margin-bottom:10px;">⚡</div>
       <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:14px; margin-bottom:6px;">Tipo de contenido</div>
-      <div style="font-size:13px; color:var(--silver);">Cobertura en tiempo real: frases de ponentes, momentos del escenario, behind-the-scenes, sorteos y audiencia.</div>
+      <div style="font-size:13px; color:rgba(255,255,255,0.9);">Cobertura en tiempo real: frases de ponentes, momentos del escenario, behind-the-scenes, sorteos y audiencia.</div>
     </div>
     <div class="card cp r d3">
       <div style="font-size:22px; margin-bottom:10px;">🎯</div>
       <div style="font-family:'Syne',sans-serif; font-weight:700; font-size:14px; margin-bottom:6px;">Objetivo demostrado</div>
-      <div style="font-size:13px; color:var(--silver);">Probar que una estrategia de historias bien ejecutada supera en ROI a cualquier inversión en pauta.</div>
+      <div style="font-size:13px; color:rgba(255,255,255,0.9);">Probar que una estrategia de historias bien ejecutada supera en ROI a cualquier inversión en pauta.</div>
     </div>
   </div>
 </div>
@@ -691,18 +720,18 @@ footer {
       <div class="r">
         <div class="stat-lbl">Total reproducciones del período</div>
         <div class="big-num" data-count="217586">0</div>
-        <div class="stat-sub" style="margin-top:10px; color:var(--silver-d);">17 – 20 de Abril 2026</div>
+        <div class="stat-sub" style="margin-top:10px; color:rgba(255,255,255,0.65);">17 – 20 de Abril 2026</div>
       </div>
 
       <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin:28px 0;" class="r d1">
         <div class="mini-card"><span class="mini-val" style="color:var(--purp-ll);">~99K</span><span class="mini-lbl">Por Historias</span></div>
         <div class="mini-card"><span class="mini-val" style="color:var(--blue-ll);">45.5%</span><span class="mini-lbl">Del total</span></div>
         <div class="mini-card"><span class="mini-val" style="color:var(--cyan);">72.3%</span><span class="mini-lbl">Audiencia nueva</span></div>
-        <div class="mini-card"><span class="mini-val" style="color:var(--silver-d);">36.5%</span><span class="mini-lbl">De anuncios</span></div>
+        <div class="mini-card"><span class="mini-val" style="color:rgba(255,255,255,0.65);">36.5%</span><span class="mini-lbl">De anuncios</span></div>
       </div>
 
       <div class="r d2">
-        <p style="font-size:11px; color:var(--silver-d); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:14px; font-weight:600;">Distribución por tipo de contenido</p>
+        <p style="font-size:11px; color:rgba(255,255,255,0.65); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:14px; font-weight:600;">Distribución por tipo de contenido</p>
         <div class="bar-list">
           <div class="bar-item">
             <div class="bar-meta"><span class="bar-name">📱 Historias</span><span class="bar-val" style="color:var(--purp-ll);">45.5%</span></div>
@@ -713,7 +742,7 @@ footer {
             <div class="bar-track"><div class="bar-fill bb" style="width:45.5%" data-bar></div></div>
           </div>
           <div class="bar-item">
-            <div class="bar-meta"><span class="bar-name">🖼 Publicaciones</span><span class="bar-val" style="color:var(--silver-d);">9%</span></div>
+            <div class="bar-meta"><span class="bar-name">🖼 Publicaciones</span><span class="bar-val" style="color:rgba(255,255,255,0.65);">9%</span></div>
             <div class="bar-track"><div class="bar-fill bc" style="width:9%" data-bar></div></div>
           </div>
         </div>
@@ -756,15 +785,15 @@ footer {
       <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin:28px 0;" class="r d1">
         <div class="mini-card"><span class="mini-val" style="color:#fff;">29,603</span><span class="mini-lbl">Total seguidores al cierre</span></div>
         <div class="mini-card"><span class="mini-val v-green" style="color:var(--green);" data-count="922">0</span><span class="mini-lbl">Empezaron a seguirte</span></div>
-        <div class="mini-card"><span class="mini-val" style="color:var(--silver-d);">56</span><span class="mini-lbl">Dejaron de seguirte</span></div>
+        <div class="mini-card"><span class="mini-val" style="color:rgba(255,255,255,0.65);">56</span><span class="mini-lbl">Dejaron de seguirte</span></div>
         <div class="mini-card"><span class="mini-val" style="color:var(--green);">866</span><span class="mini-lbl">Crecimiento neto real</span></div>
       </div>
 
       <div class="card gp r d2" style="margin-bottom:18px;">
         <p style="font-size:13px; font-weight:600; color:#fff; margin-bottom:4px;">📈 Ritmo proyectado</p>
-        <p style="font-size:13px; color:var(--silver); margin-bottom:10px;">Si se mantiene esta cadencia en cada evento:</p>
+        <p style="font-size:13px; color:rgba(255,255,255,0.9); margin-bottom:10px;">Si se mantiene esta cadencia en cada evento:</p>
         <div style="font-family:'Syne',sans-serif; font-weight:800; font-size:36px; color:var(--green); line-height:1;">~6,800</div>
-        <div style="font-size:12px; color:var(--silver-d); margin-top:4px;">seguidores nuevos por mes · sin inversión publicitaria</div>
+        <div style="font-size:12px; color:rgba(255,255,255,0.65); margin-top:4px;">seguidores nuevos por mes · sin inversión publicitaria</div>
       </div>
 
       <div class="pills r d3">
@@ -804,19 +833,19 @@ footer {
       <div class="stat-lbl">Actividad total en perfil</div>
       <div style="font-family:'Syne',sans-serif; font-weight:800; font-size:58px; line-height:1; color:var(--cyan);" data-count="3160">0</div>
       <div style="font-size:13px; color:var(--green); font-weight:600; margin-top:6px;">+114.2% vs período anterior</div>
-      <div style="font-size:13px; color:var(--silver); margin-top:8px; line-height:1.55;">Incluye visitas al perfil, clics en enlace y otras interacciones generadas desde las historias.</div>
+      <div style="font-size:13px; color:rgba(255,255,255,0.9); margin-top:8px; line-height:1.55;">Incluye visitas al perfil, clics en enlace y otras interacciones generadas desde las historias.</div>
     </div>
     <div class="card bp r d1">
       <div class="stat-lbl">Visitas al perfil</div>
       <div style="font-family:'Syne',sans-serif; font-weight:800; font-size:58px; line-height:1; color:var(--purp-ll);" data-count="3030">0</div>
       <div style="font-size:13px; color:var(--green); font-weight:600; margin-top:6px;">+116.6% vs período anterior</div>
-      <div style="font-size:13px; color:var(--silver); margin-top:8px; line-height:1.55;">Más de 3,000 personas fueron activamente desde las historias hasta el perfil de la cuenta.</div>
+      <div style="font-size:13px; color:rgba(255,255,255,0.9); margin-top:8px; line-height:1.55;">Más de 3,000 personas fueron activamente desde las historias hasta el perfil de la cuenta.</div>
     </div>
     <div class="card gp r d2">
       <div class="stat-lbl">Clics en enlace externo</div>
       <div style="font-family:'Syne',sans-serif; font-weight:800; font-size:58px; line-height:1; color:var(--green);" data-count="130">0</div>
       <div style="font-size:13px; color:var(--green); font-weight:600; margin-top:6px;">+71.1% vs período anterior</div>
-      <div style="font-size:13px; color:var(--silver); margin-top:8px; line-height:1.55;">130 leads orgánicos reales que hicieron clic en el link del perfil. Sin pauta. Sin presión.</div>
+      <div style="font-size:13px; color:rgba(255,255,255,0.9); margin-top:8px; line-height:1.55;">130 leads orgánicos reales que hicieron clic en el link del perfil. Sin pauta. Sin presión.</div>
     </div>
   </div>
 
@@ -878,18 +907,18 @@ footer {
         <div class="rank-item">
           <div class="rank-num" style="background:var(--silver-d);">7</div>
           <div class="rank-desc"><strong>Historia de cierre · Gracias Alicante</strong><span>Momento final del evento con audiencia</span></div>
-          <div class="rank-views" style="color:var(--silver);">1,883</div>
+          <div class="rank-views" style="color:rgba(255,255,255,0.9);">1,883</div>
           <div class="rank-bar"><div class="rank-track"><div class="rank-fill" style="width:51%;background:var(--silver-d);" data-bar></div></div></div>
         </div>
       </div>
 
       <div class="card bp r d1" style="margin-top:20px;">
-        <p style="font-size:11px; text-transform:uppercase; letter-spacing:0.09em; color:var(--silver-d); font-weight:600; margin-bottom:12px;">¿Por qué funcionó la historia #1?</p>
+        <p style="font-size:11px; text-transform:uppercase; letter-spacing:0.09em; color:rgba(255,255,255,0.65); font-weight:600; margin-bottom:12px;">¿Por qué funcionó la historia #1?</p>
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-          <div style="font-size:13px; color:var(--silver);"><span style="color:var(--purp-ll);">→</span> Frase de alto impacto emocional</div>
-          <div style="font-size:13px; color:var(--silver);"><span style="color:var(--purp-ll);">→</span> Etiqueta del ponente @ramgaldavis</div>
-          <div style="font-size:13px; color:var(--silver);"><span style="color:var(--purp-ll);">→</span> Contexto de evento real en vivo</div>
-          <div style="font-size:13px; color:var(--silver);"><span style="color:var(--purp-ll);">→</span> Diseño visual profesional y limpio</div>
+          <div style="font-size:13px; color:rgba(255,255,255,0.9);"><span style="color:var(--purp-ll);">→</span> Frase de alto impacto emocional</div>
+          <div style="font-size:13px; color:rgba(255,255,255,0.9);"><span style="color:var(--purp-ll);">→</span> Etiqueta del ponente @ramgaldavis</div>
+          <div style="font-size:13px; color:rgba(255,255,255,0.9);"><span style="color:var(--purp-ll);">→</span> Contexto de evento real en vivo</div>
+          <div style="font-size:13px; color:rgba(255,255,255,0.9);"><span style="color:var(--purp-ll);">→</span> Diseño visual profesional y limpio</div>
         </div>
       </div>
     </div>
@@ -931,15 +960,15 @@ footer {
         <div style="display:flex; flex-direction:column; gap:14px;">
           <div style="display:flex; gap:12px; align-items:flex-start;">
             <div style="width:30px; height:30px; background:rgba(124,58,237,0.2); border:1px solid rgba(124,58,237,0.35); border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:13px;">💬</div>
-            <div><div style="font-size:13px; font-weight:600; color:#fff; margin-bottom:2px;">Frase de alto impacto emocional</div><div style="font-size:12px; color:var(--silver-d);">Tocó una fibra real: el estado mental detrás de cada decisión financiera.</div></div>
+            <div><div style="font-size:13px; font-weight:600; color:#fff; margin-bottom:2px;">Frase de alto impacto emocional</div><div style="font-size:12px; color:rgba(255,255,255,0.65);">Tocó una fibra real: el estado mental detrás de cada decisión financiera.</div></div>
           </div>
           <div style="display:flex; gap:12px; align-items:flex-start;">
             <div style="width:30px; height:30px; background:rgba(34,211,238,0.1); border:1px solid rgba(34,211,238,0.28); border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:13px;">🔗</div>
-            <div><div style="font-size:13px; font-weight:600; color:#fff; margin-bottom:2px;">Etiqueta directa al ponente</div><div style="font-size:12px; color:var(--silver-d);">Al etiquetar @ramgaldavis, la historia llegó a toda su audiencia — amplificación gratuita.</div></div>
+            <div><div style="font-size:13px; font-weight:600; color:#fff; margin-bottom:2px;">Etiqueta directa al ponente</div><div style="font-size:12px; color:rgba(255,255,255,0.65);">Al etiquetar @ramgaldavis, la historia llegó a toda su audiencia — amplificación gratuita.</div></div>
           </div>
           <div style="display:flex; gap:12px; align-items:flex-start;">
             <div style="width:30px; height:30px; background:rgba(16,185,129,0.1); border:1px solid rgba(16,185,129,0.28); border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:13px;">⚡</div>
-            <div><div style="font-size:13px; font-weight:600; color:#fff; margin-bottom:2px;">Tiempo real = relevancia máxima</div><div style="font-size:12px; color:var(--silver-d);">Publicada en el momento justo, con la energía del escenario viva.</div></div>
+            <div><div style="font-size:13px; font-weight:600; color:#fff; margin-bottom:2px;">Tiempo real = relevancia máxima</div><div style="font-size:12px; color:rgba(255,255,255,0.65);">Publicada en el momento justo, con la energía del escenario viva.</div></div>
           </div>
         </div>
       </div>
@@ -971,24 +1000,24 @@ footer {
       <div style="font-size:32px; margin-bottom:10px;">📱</div>
       <div class="s-num" style="color:var(--purp-ll); font-size:48px;" data-count="338" data-sfx="%">0%</div>
       <div class="s-lbl">Del engagement total</div>
-      <div class="s-sub" style="font-size:13px; color:var(--silver);">vino de Historias orgánicas</div>
+      <div class="s-sub" style="font-size:13px; color:rgba(255,255,255,0.9);">vino de Historias orgánicas</div>
     </div>
     <div class="s-card" style="padding:28px 18px; border-radius:var(--radius); background:rgba(71,85,105,0.1); border:1px solid rgba(71,85,105,0.2);">
       <div style="font-size:32px; margin-bottom:10px; opacity:0.5;">💸</div>
-      <div class="s-num" style="color:var(--silver-d); font-size:48px;">3.9%</div>
-      <div class="s-lbl" style="color:var(--silver-d);">Del engagement total</div>
-      <div class="s-sub" style="font-size:13px; color:var(--silver-d);">vino de publicidad pagada</div>
+      <div class="s-num" style="color:rgba(255,255,255,0.65); font-size:48px;">3.9%</div>
+      <div class="s-lbl" style="color:rgba(255,255,255,0.65);">Del engagement total</div>
+      <div class="s-sub" style="font-size:13px; color:rgba(255,255,255,0.65);">vino de publicidad pagada</div>
     </div>
     <div class="s-card sc" style="padding:28px 18px; border-radius:var(--radius);">
       <div style="font-size:32px; margin-bottom:10px;">🏆</div>
       <div class="s-num" style="color:var(--cyan); font-size:48px;">8.6×</div>
       <div class="s-lbl">Más eficientes</div>
-      <div class="s-sub" style="font-size:13px; color:var(--silver);">historias vs publicidad en engagement</div>
+      <div class="s-sub" style="font-size:13px; color:rgba(255,255,255,0.9);">historias vs publicidad en engagement</div>
     </div>
   </div>
 
   <div class="r d1">
-    <p style="font-size:11px; color:var(--silver-d); text-transform:uppercase; letter-spacing:0.09em; font-weight:600; margin-bottom:18px;">Tipos de interacción capturados por historias</p>
+    <p style="font-size:11px; color:rgba(255,255,255,0.65); text-transform:uppercase; letter-spacing:0.09em; font-weight:600; margin-bottom:18px;">Tipos de interacción capturados por historias</p>
     <div class="bar-list" style="max-width:580px;">
       <div class="bar-item">
         <div class="bar-meta"><span class="bar-name">❤ Likes y reacciones</span><span class="bar-val" style="font-size:14px; color:var(--purp-ll);">Principal fuente</span></div>
